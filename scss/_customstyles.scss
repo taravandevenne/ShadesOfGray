@@ -1,5 +1,39 @@
 /* Dit is mijn eigen css bestand */
+.kenburns-top-right {
+  -webkit-animation: kenburns-top-right 5s ease-out both;
+  animation: kenburns-top-right 5s ease-out both;
+  width: 100%;
+}
 
-.test {
- background: red;
+@-webkit-keyframes kenburns-top-right {
+  0% {
+    -webkit-transform: scale(1) translate(0, 0);
+    transform: scale(1) translate(0, 0);
+    -webkit-transform-origin: 84% 16%;
+    transform-origin: 84% 16%;
+  }
+  100% {
+    -webkit-transform: scale(1.25) translate(20px, -15px);
+    transform: scale(1.25) translate(20px, -15px);
+    -webkit-transform-origin: right top;
+    transform-origin: right top;
+  }
+}
+@keyframes kenburns-top-right {
+  0% {
+    -webkit-transform: scale(1) translate(0, 0);
+    transform: scale(1) translate(0, 0);
+    -webkit-transform-origin: 84% 16%;
+    transform-origin: 84% 16%;
+  }
+  100% {
+    -webkit-transform: scale(1.25) translate(20px, -15px);
+    transform: scale(1.25) translate(20px, -15px);
+    -webkit-transform-origin: right top;
+    transform-origin: right top;
+  }
+}
+
+.bg-header1 {
+  overflow: hidden;
 }
